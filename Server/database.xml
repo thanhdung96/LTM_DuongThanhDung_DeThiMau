@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item>
+    <Type>Giay</Type>
+    <Stock>10</Stock>
+    <Price>100</Price>
+  </Item>
+  <Item>
+    <Type>Ao</Type>
+    <Stock>20</Stock>
+    <Price>150</Price>
+  </Item>
+  <Item>
+    <Type>Quan</Type>
+    <Stock>50</Stock>
+    <Price>110</Price>
+  </Item>
+  <Item>
+    <Type>That lung</Type>
+    <Stock>30</Stock>
+    <Price>50</Price>
+  </Item>
+</Items>
