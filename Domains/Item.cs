@@ -2,6 +2,7 @@
 {
 	public class Item
 	{
+		private int id;
 		private string type;
 		private int stock;
 		private int price;
@@ -11,6 +12,12 @@
 			this.type = "";
 			this.stock = 0;
 			this.price = 0;
+		}
+
+		public int Id
+		{
+			get { return id; }
+			set { id = value; }
 		}
 
 		public string Type

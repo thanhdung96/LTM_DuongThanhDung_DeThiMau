@@ -1,10 +1,9 @@
-﻿using System;
-using System.Xml.Linq;
-using System.Xml;
-using System.Linq;
+﻿using System.Xml;
 using System.Collections.Generic;
 using Domains;
 using System.IO;
+using System;
+using System.Linq;
 
 namespace Server
 {
@@ -25,9 +24,10 @@ namespace Server
 			foreach (XmlNode node in xmlNode)
 			{
 				Item item = new Item();
-				item.Type = node.ChildNodes.Item(0).InnerText.Trim();
-				item.Stock = XmlConvert.ToInt32(node.ChildNodes.Item(1).InnerText.Trim());
-				item.Price = XmlConvert.ToInt32(node.ChildNodes.Item(2).InnerText.Trim());
+				item.Id = XmlConvert.ToInt32(node.ChildNodes.Item(0).InnerText.Trim());
+				item.Type = node.ChildNodes.Item(1).InnerText.Trim();
+				item.Stock = XmlConvert.ToInt32(node.ChildNodes.Item(2).InnerText.Trim());
+				item.Price = XmlConvert.ToInt32(node.ChildNodes.Item(3).InnerText.Trim());
 			}
 		}
 
