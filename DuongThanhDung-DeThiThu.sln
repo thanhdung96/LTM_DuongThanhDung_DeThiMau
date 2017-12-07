@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domains", "Domains\Domains.csproj", "{276EC5E3-D0AE-4B6E-863B-772D74D6B959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server-Multithreaded", "Server-Multithreaded\Server-Multithreaded.csproj", "{942F7E83-31A1-4D6A-9A7A-9E28F8DD4E40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{276EC5E3-D0AE-4B6E-863B-772D74D6B959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{276EC5E3-D0AE-4B6E-863B-772D74D6B959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{276EC5E3-D0AE-4B6E-863B-772D74D6B959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942F7E83-31A1-4D6A-9A7A-9E28F8DD4E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942F7E83-31A1-4D6A-9A7A-9E28F8DD4E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942F7E83-31A1-4D6A-9A7A-9E28F8DD4E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942F7E83-31A1-4D6A-9A7A-9E28F8DD4E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
