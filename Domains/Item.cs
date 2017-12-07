@@ -1,5 +1,7 @@
 ﻿namespace Domains
 {
+	using System;
+
 	public class Item
 	{
 		private int id;
@@ -36,6 +38,20 @@
 		{
 			get { return price; }
 			set { price = value; }
+		}
+
+		public override string ToString()
+		{
+			return this.id + ";" + this.type + ";" + this.stock + ";" + this.price;		// 1;Giay;10;100
+		}
+
+		public static Item GetObject(string str)
+		{
+			Item item = new Item();
+			item.Id = Convert.ToInt32(str.Split(';')[0]);
+			item.Type = str.Split(';')[1];
+			item.Stock = Convert.ToInt32(str.Split(';')[2]);
+			return item;
 		}
 	}
 }
