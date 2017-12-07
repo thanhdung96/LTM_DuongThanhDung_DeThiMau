@@ -2,6 +2,7 @@
 {
 	public class Signal
 	{
+		public static readonly byte NULL = 0;
 		public static readonly byte OK = 1;				//acknowledged
 		public static readonly byte DISCONNECT = 2;
 		public static readonly byte LIST_SEND_MORE = 10;	//signal client to prepare to receive more items in db
